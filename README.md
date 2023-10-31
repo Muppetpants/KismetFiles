@@ -22,10 +22,4 @@ Add user input for ```wlan Interface```
 
 Add user input for ```Output directory```
 
-Add user input for ```VPS IPv4 Address```
-
-Add user input for ```VPS SSH Port```
-
-Add user input for ```VPS Username```
-
 ```Press enter if settings are correct. ```
