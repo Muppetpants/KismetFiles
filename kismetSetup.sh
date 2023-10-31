@@ -27,6 +27,7 @@ if [ -z "$DIRECTORY" ]; then
 fi
 
 clear
+echo "Please confirm the following:"
 echo "HCI Adatper:  $BTRADIO"
 echo "WLAN Adapter:  $WLAN"
 echo "Output Directory: $DIRECTORY"
