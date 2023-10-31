@@ -26,6 +26,13 @@ if [ -z "$DIRECTORY" ]; then
   DIRECTORY="/home/${USER}/Documents/KismetCapture"
 fi
 
+clear
+echo "HCI Adatper:  $BTRADIO"
+echo "WLAN Adapter:  $WLAN"
+echo "Output Directory: $DIRECTORY"
+echo " "
+read -n 1 -r -s -p $'Press enter to continue if the values above are correct. Otherwise "Ctrl + c" to reenter...\n'
+
 #Make output directory
 
 mkdir $DIRECTORY 2> /dev/null
